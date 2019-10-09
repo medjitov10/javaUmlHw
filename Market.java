@@ -1,5 +1,5 @@
 package GA.homework.umlHW;
 
-public class Market {
-    void bookTrade(Asset asset) {};
+public interface Market {
+    void bookTrade(Asset asset);
 }
